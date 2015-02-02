@@ -1,0 +1,47 @@
+.arrow-down, .left-button, .right-button, .ad-right, .ad-mid, .ad-left{
+	background: url(sprites-2.png) no-repeat;
+	display:block;
+}
+
+.arrow-down{
+	background-position: -45px -46px ;
+	width: 10px;
+	height: 6px;
+}
+
+.left-button{
+	background-position: -37px -140px ;
+	width: 22px;
+	height: 22px;
+	float:left;
+	margin-top:13px;
+}
+
+.right-button{
+	background-position: -141px -39px ;
+	width: 22px;
+	height: 22px;
+	float:right;
+	margin-top:13px;
+}
+
+.ad-right{
+	background-position: -265px -21px ;
+	width: 284px;
+	height: 164px;
+}
+
+.ad-mid{
+	background-position: -14px -246px ;
+	width: 284px;
+	height: 174px;
+	padding-right:20px;
+}
+
+.ad-left{
+	background-position: -317px -256px ;
+	width: 284px;
+	height: 164px;
+	padding-right:20px;
+}
+

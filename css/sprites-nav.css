@@ -1,0 +1,67 @@
+.analytics-icon-hover, .analytics-icon, .customers-icon-hover, .customers-icon, .dashboard-icon-hover, .dashboard-icon, .messages-icon-hover, .messages-icon, .page-icon-hover, .page-icon, .promotions-icon-hover, .promotions-icon{
+	background: url(sprites-nav.png) no-repeat;
+	display:block;
+}
+
+.analytics-icon:hover{
+	background-position: -506px -97px ;
+	width: 90px;
+	height: 90px;
+}
+
+.analytics-icon{
+	background-position: -505px 0;
+	width: 90px;
+	height: 90px;
+}
+.customers-icon:hover{
+	background-position: -105px -103px ;
+	width: 90px;
+	height: 90px;
+}
+.customers-icon{
+	background-position: -106px -6px ;
+	width: 90px;
+	height: 90px;
+}
+.dashboard-icon:hover{
+	background-position: -4px -104px ;
+	width: 90px;
+	height: 90px;
+}
+.dashboard-icon{
+	background-position: -4px -5px ;
+	width: 90px;
+	height: 90px;
+}
+.messages-icon:hover{
+	background-position: -203px -105px ;
+	width: 90px;
+	height: 90px;
+}
+.messages-icon{
+	background-position: -193px 0;
+	width: 90px;
+	height: 90px;
+}
+.page-icon:hover{
+	background-position: -404px -99px ;
+	width: 90px;
+	height: 90px;
+}
+.page-icon{
+	background-position: -402px 0;
+	width: 90px;
+	height: 90px;
+}
+.promotions-icon:hover{
+	background-position: -305px -100px ;
+	width: 90px;
+	height: 90px;
+}
+.promotions-icon{
+	background-position: -301px -7px ;
+	width: 90px;
+	height: 90px;
+}
+
