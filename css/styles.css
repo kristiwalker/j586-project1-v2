@@ -314,6 +314,9 @@ select#soflow, select#soflow-color {
 
 .pie-border{
     border-left:1px solid #efefef;
+    display:block;
+    padding-left:3px;
+
 }
 
 .line-graph{
@@ -441,6 +444,8 @@ select#soflow, select#soflow-color {
 .footer{
     margin-top:30px;
     background-color:#f5f5f5;
+    min-height:3.6em;
+    max-height:6em;
 }
 
 .tutorials-spacer{
@@ -450,37 +455,42 @@ select#soflow, select#soflow-color {
 .tutorials{
     display:inline-block;
     position:absolute;
-    top: 10px;
+    top: 18px;
     left:0;
     right:0;
 }
 
-.support-spacer{
-    border-right:1px solid #999999;
-    padding-left:.8em;
-    padding-top:4px;
-    margin-top:9px
-}
-.blog{
-    padding-top:4px;
-    margin-top:9px
+.footer-spacer{
+    border-right:1px solid #777776;
+    margin-right:11px;
 }
 
 .footer-body{
     font-size:14px;
     color:#777777;
     font-weight:600;
-    padding-top:13px;
 }
 .footer-border{
     border-right:1px solid #dddddd;
-    padding-top:16px;
-    padding-bottom:18px;
-    margin:0;
+}
+.tutorials-margin{
+    padding-bottom:40px;
+}
+.avatar{
+    display:inline-block;
+    position:absolute;
+    top:6px;
+    left:0;
+    right:0;
+}
+.logout{
+    display:inline-block;
+    position:absolute;
+    top:18px;
+    left:50px;
+}
+.footer-body-margin{
+    padding-bottom:60px;
 }
 
-.pull-up{
-    padding-top:10px;
-    padding-bottom:18px;
-    margin:0;
-}
+
