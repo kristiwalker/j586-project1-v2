@@ -1,12 +1,13 @@
 .arrow-down, .left-button, .right-button, .ad-right, .ad-mid, .ad-left{
 	background: url(sprites-2.png) no-repeat;
-	display:block;
 }
 
 .arrow-down{
 	background-position: -45px -46px ;
 	width: 10px;
 	height: 6px;
+	absolute:position;
+	top:10px;
 }
 
 .left-button{

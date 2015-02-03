@@ -415,47 +415,54 @@ select#soflow, select#soflow-color {
     padding:0 20px 20px 20px; 
 }
 
-.ad-1{
-    border:1px solid #efefef;
-    border-top:none;
-    border-right:none;
-    padding-top:30px;
+.ads-background{
     background-color:#2498f4;
-    padding-bottom:30px;
+}
+
+.ads-display{
+    display:block;
+    height:220px;
+}
+
+.ad-1{
+    display:inline-block;
+    position: absolute;
+    bottom:27px;
 }
 
 .ad-2{
-    padding-top:20px;
-    background-color:#2498f4;
-    padding-bottom:30px;
-
+    display:inline-block;
+    position: absolute;
+    bottom:27px;
 }
 
 .ad-3{
-    border:1px solid #efefef;
-    border-top:none;
-    border-left:none;
-    padding-top:30px;
-    background-color:#2498f4;
-    padding-bottom:30px;
+    display:inline-block;
+    position: absolute;
+    bottom:27px;
 
 }
 
 .footer{
     margin-top:30px;
     background-color:#f5f5f5;
-    min-height:3.6em;
-    max-height:6em;
+    min-height:3em;
 }
 
 .tutorials-spacer{
     display:block;
+    height:40px
+}
+
+.body-spacer{
+    display:block;
+    height:60px;
 }
 
 .tutorials{
     display:inline-block;
     position:absolute;
-    top: 18px;
+    top: 21px;
     left:0;
     right:0;
 }
@@ -470,27 +477,34 @@ select#soflow, select#soflow-color {
     color:#777777;
     font-weight:600;
 }
-.footer-border{
+.footer-border-right{
     border-right:1px solid #dddddd;
+    min-height:60px;
 }
-.tutorials-margin{
-    padding-bottom:40px;
+.footer-border-left{
+    border-left:1px solid #dddddd;
+    min-height:60px;
 }
 .avatar{
     display:inline-block;
     position:absolute;
-    top:6px;
-    left:0;
-    right:0;
+    top:9px;
+    left:10px;
+}
+
+.pullup{
+    display:inline-block;
+    position:absolute;
+    top:20px;
+    left:40px;
 }
 .logout{
     display:inline-block;
     position:absolute;
-    top:18px;
-    left:50px;
+    top:21px;
+    left:60px;
 }
-.footer-body-margin{
-    padding-bottom:60px;
+.social-margin{
+    margin-left:40px;
 }
-
 
