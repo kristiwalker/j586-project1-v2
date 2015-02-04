@@ -1,6 +1,6 @@
 @font-face {
     font-family: Myriad Pro;
-    src: url(..myriad-pro/myriadpro-regular.otf);
+    src: url(MYRIADPRO-REGULAR.OTF);
 }
 
 h1, h2, h3, h4, h5, h6, body, a{
@@ -626,6 +626,8 @@ input[type="checkbox"]:checked + label span {
     margin-top:30px;
     background-image:url("footer-background.png");
     background-repeat:no-repeat;
+    overflow:auto;
+    background-position:center;
     min-height:3em;
 }
 
