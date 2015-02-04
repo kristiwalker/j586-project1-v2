@@ -7,18 +7,26 @@
 	background-position: -43px -47px ;
 	width: 10px;
 	height: 6px;
+	absolute:position;
+	top:10px;
 }
 
 .left-button{
 	background-position: -142px -40px ;
 	width: 22px;
 	height: 22px;
+	position:absolute;
+	bottom:12px;
+	left:12px;
 }
 
 .right-button{
 	background-position: -239px -39px ;
 	width: 22px;
 	height: 22px;
+	position:absolute;
+	top:14px;
+	left:42px;
 }
 
 .{
@@ -34,6 +42,7 @@
 	margin-top:23px;
 	float:left;
 	margin-right:5px;
+	margin-left:10px;
 }
 
 .foursquare{
