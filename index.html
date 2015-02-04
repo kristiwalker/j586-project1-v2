@@ -44,8 +44,9 @@
       <div class="row nav-background">
         <div class="hidden-xs col-sm-12 col-md-2 col-lg-3 nav-left"></div>
         <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6 nav-center">
-            <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
+            <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2 marker-display">
               <a href="#" class="dashboard-icon"></a>
+	      <img src="css/images/marker.png" class="marker" alt="marker">
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2 col-lg-2">
               <a href="#" class="customers-icon"></a>
@@ -71,9 +72,7 @@
       <div class="row">
         <div class="hidden-xs col-md-1"></div>
         <div class="col-xs-12 col-md-10 dash">
-          <div class="col-xs-4 hidden-md hidden-lg"></div>
 	  <div class="col-xs-4 col-md-6"><h2>Dashboard</h2></div>
-	  <div class="col-xs-4 hidden-md col-lg-hidden"></div>
           <div class="col-xs-12 col-md-6">
             <div id="tfheader">
               <form id="tfnewsearch" method="get" action="http://www.google.com">
@@ -112,7 +111,7 @@
             <div class="col-xs-12 welcome-contacts section">
               <div class="col-xs-1 circle layer">1</div>
               <div class="col-xs-8 layer">
-                <a href="#"><h6>Welcome Contacts</h6>
+                <a href="#"><p class="welcome-font">Welcome Contacts</p>
               </div>
               <div class="col-xs-2 tasks-number layer">
                 <a href="#" class="man-icon"><h7>32</h7></a>
@@ -151,23 +150,23 @@
 	    </div>
 	    <div class="col-xs-12 welcome-contacts recommend-col recommend-dotted">
 	      <img src="css/images/paper-icon.png" alt="Paper Icon" class="recommend-icons">
-	      <p class="rec-sm-text">Article</p>
-	      <p class="rec-lg-text">7 Steps to getting more Fans</p>
+	      <ul><p class="rec-sm-text">Article</p></ul>
+	      <ul><a href="#"><p class="rec-lg-text">7 Steps to getting more Fans</p></a></ul>
 	    </div>
-	    <div class="col-xs-12 welcome-contacts recommend-col recommend-dotted">
+	    <div class="col-xs-12 welcome-contacts recommend-col recommend-dotted article-2">
 	      <img src="css/images/paper-icon.png" alt="Paper Icon" class="recommend-icons">
-	      <p class="rec-sm-text">Article</p>
-	      <p class="rec-lg-text">Increase traction with more interactions</p>
+	      <ul><p class="rec-sm-text">Article</p></ul>
+	      <ul><a href="#"><p class="rec-lg-text" style="line-height:16px">Increase traction with more interactions</p></a></ul>
 	    </div>
-	    <div class="col-xs-12 welcome-contacts recommend-col recommend-dotted">
+	    <div class="col-xs-12 welcome-contacts recommend-col recommend-dotted article-3">
 	      <img src="css/images/check-icon.png" alt="Check Icon" class="recommend-icons green-check">
-	      <p class="rec-sm-text">Checklist</p>
-	      <p class="rec-lg-text">Creating a Promotion</p>
+	      <ul><p class="rec-sm-text">Checklist</p></ul>
+	      <ul><a href="#"><p class="rec-lg-text">Creating a Promotion</p></a></ul>
 	    </div>
 	    <div class="col-xs-12 welcome-contacts recommend-col recommend-dotted">
 	      <img src="css/images/bulb-icon.png" alt="Bulb Icon" class="recommend-icons green-bulb">
-	      <p class="rec-sm-text">Tip</p>
-	      <p class="rec-lg-text">Share More</p>
+	      <ul><p class="rec-sm-text">Tip</p></ul>
+	      <ul><a href="#"><p class="rec-lg-text">Share More</p></a></ul>
 	    </div>
 	    <div class="col-xs-12 hidden-col"></div>
           </div>
@@ -238,24 +237,28 @@
 	  <!--End analytics-->
 	  <!--LineGraph-->
 	   <div class="col-xs-12 col-md-8 line-graph">
-	    <div class="col-xs-12 col-md-12 contacts-display">
-	      <div class="col-xs-12 col-md-6 contacts">
-		<p class="contacts-head">75 CONTACTS</p>
-		<p class="contacts-deck">4 INFLUENCES</p>
-		<img src="css/images/contacts.png" alt="">
-		  <div class="ribbon-display">
-		    <div class="ribbon"></div>
-		    <div class="rib"></div>
-		  </div>
+	    <div class="col-xs-12 col-md-12">
+	      <div class="col-xs-12 col-md-6 contacts-display">
+		<div class="contacts">
+		  <p class="contacts-head">75 CONTACTS</p>
+		  <p class="contacts-deck">4 INFLUENCES</p>
+		  <img src="css/images/contacts.png" alt="">
+		    <div class="ribbon-display">
+		      <div class="ribbon"></div>
+		      <div class="rib"></div>
+		    </div>
+		</div>
 	      </div>
-	      <div class="col-xs-12 col-md-6 customers">
-		<p class="customers-head">17 CUSTOMERS</p>
-		<p class="customers-deck">0 INFLUENCES</p>
-		<img src="css/images/customers.png" alt="">  
-		  <div class="ribbon-display">
-		    <div class="ribbon"></div>
-		    <div class="rib"></div>
-		  </div>
+	      <div class="col-xs-12 col-md-6 contacts-display">
+		<div class="contacts">
+		  <p class="customers-head">17 CUSTOMERS</p>
+		  <p class="customers-deck">0 INFLUENCES</p>
+		  <img src="css/images/customers.png" alt="">  
+		    <div class="ribbon-display">
+		      <div class="ribbon"></div>
+		      <div class="rib"></div>
+		    </div>
+		</div>
 	      </div>
 	    </div>
 	  </div>
@@ -266,6 +269,12 @@
 	      Maecenas sed diam eget risus varius blandit sit amet non magna.
 	      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.
 	      </p>
+	      <div class="left-circle">
+		<a href="#"> <img src="css/images/left-circle.png" alt="Left Arrow"></a>
+	      </div>
+	      <div class="right-circle">
+		<a href="#"> <img src="css/images/right-circle.png" alt="Left Arrow"></a>
+	      </div>
 	    </div>
 	  </div>
 	</div>
@@ -308,15 +317,15 @@
 	    <div class="col-xs-1 hidden-md hidden-lg"></div>
 	    <div class="col-xs-11 col-md-6 footer-border-right"><!--SEVEN-->
 	      <div class="col-xs-10 col-md-10 body-spacer">
-		<p class="footer-body tutorials"> <a href="#"><span style="color:#2498f2">Ariel Winter</span></a> likes your <a href="#"><span style="color:#2498f2">Win A Cooper Sweepstakes</span></a> Promotion</p>
+		<p class="footer-body tutorials"> <a href="#"><span style="font-weight:600; color:#2498f2">Ariel Winter</span></a> likes your <a href="#"><span style="font-weight:600; color:#2498f2">Win A Cooper Sweepstakes</span></a> Promotion</p>
 	      </div>
 	      <div class="col-xs-1 col-md-2 pull-up tutorials-spacer footer-body-margin">
 		<a href="#" class="pullup"><img src="css/images/pull-up.png"></a>
 	      </div>
 	    </div>
-	    <div class="col-xs-3 col-md-1 body-spacer">
+	    <div class="col-xs-6 col-md-1 body-spacer">
 	      <a href="#" class="avatar"><img src="css/images/avatar.png" alt="avatar"></a>
-	      <p class="logout footer-body" style="color:#3498f2">Logout</p> 
+	      <p class="logout footer-body" style="font-weight:600; color:#3498f2">Logout</p> 
 	    </div>
 	    <div class="col-xs-6 col-md-2 footer-border-right">
 	      <div class="col-xs-12 footer-border-left social-marign">
