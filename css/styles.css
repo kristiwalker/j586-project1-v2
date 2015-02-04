@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Myriad Pro;
+    src: url(..myriad-pro/myriadpro-regular.otf);
+}
+
 h1, h2, h3, h4, h5, h6, body, a{
     font-family:"Myriad Pro";
 }
@@ -201,6 +206,20 @@ h7{
     width: 25px;
     height: 25px;
     background:#33cc66;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    padding:4px;
+    color:white;
+    float:left;
+    margin-top:17px;
+}
+
+.circle-2{
+    width: 25px;
+    height: 25px;
+    background:#cccccc;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
